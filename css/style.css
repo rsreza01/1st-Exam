@@ -1,0 +1,204 @@
+
+
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*header section*/
+
+
+.container{
+	width: 1020px;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #f6f6f6;
+
+}
+
+.logo{
+	width: 25%;
+	float: left;
+
+
+}
+
+.menu{
+	width: 75%;
+	float: left;
+	text-align: right;
+}
+
+nav ul{
+	list-style: none;
+
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 10px 20px;
+	align-items: right;
+}
+
+nav ul li a{
+	text-decoration: none;
+    color: #8fc63d;
+    background: #272727;
+	padding: 5px 10px;
+	border-radius: 6px;
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: .4s;
+
+	
+}
+
+nav ul li a:hover{
+	color: #ffffff;
+    background: #8fc63d;
+}
+
+
+/*banner section*/
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+	padding: 25px 0px;
+}
+
+.banner-main{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+
+
+}
+
+.banner-main h1{
+	font-size: 40px;
+	color: white;
+	padding: 165px 0px 25px;
+	
+}
+
+
+
+.banner-main p{
+	font-size: 25px;
+	color: white;
+	padding: 0px 0px 60px;
+
+	
+}
+
+
+.bnr-btn{
+	background: #8FC63D;
+	border: none;
+	color: white;
+	padding: 20px 30px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px 0px 165px;
+	border-radius:10px;
+	
+}
+
+.content{
+	padding: 100px 0px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.content-main h2{
+	color: gray;
+
+}
+
+.content-main p{
+	color: darkgray;
+}
+
+
+
+.project{
+	width: 100%;
+	float: left;
+}
+
+
+.project-main{
+	color: gray;
+	padding: 0px 0px 60px;
+}
+
+.fnd-project{
+	width: 50%;
+	float: left;
+	background: #E1F8FE;
+}
+
+
+.fnd-project .chair{
+	width: 50%;
+	float: left;
+
+}
+
+.fnd-project img{
+	padding: 55px;
+
+}
+
+.fnd-project .fnd-project-conten{
+	width: 50%;
+	float: left;
+}
+
+
+.fnd-project .fnd-project-conten h4{
+	padding: 20px 0px;
+}
+
+
+.fnd-project .fnd-project-conten p{
+	padding: 0px 0px 40px;
+}
+
+
+
+
+.fnd-buyers{
+	width: 50%;
+	float: left;
+	background: #F5F9EB;
+}
+
+.fnd-buyers .money{
+	width: 50%;
+	float: left;
+
+}
+
+.fnd-buyers img{
+	padding: 55px;
+}
+
+
+
